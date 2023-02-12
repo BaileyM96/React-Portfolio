@@ -12,13 +12,23 @@ margin-top: 3%;
 `;
 
 const Title = styled.h3`
-font-size: 20px;
+display: flex;
+justify-content: center;
+font-size: large;
 color: black;
+font-weight: bold;
+`;
+const ImageContainer = styled.div`
+width: 45%;
+display: flex;
+align-items: center;
+padding-left: 5%;
 `;
 
-const ProjectTitle = () => {
+
+const ProjectTitle = (props) => {
     return (
-        <Title>Burnt</Title>
+        <Title>{props.name}</Title>
     )
 }
 
@@ -26,7 +36,14 @@ export default function Project() {
     return (
         <section>
             <ProjectHeader>Portfolio</ProjectHeader>
-            <ProjectTitle />
+            <ProjectTitle name='Burnt' />
+            <ImageContainer>
+                <img  
+                src={Burnt}
+                />
+            </ImageContainer>
+            <ProjectTitle name='Skaro' />
+         
         </section>
     )
 } 
