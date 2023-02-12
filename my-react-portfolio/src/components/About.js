@@ -1,5 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
+import BaileyImg from '../Assets/Bailey Portrait.jpg';
+
 
 
 
@@ -33,7 +35,19 @@ margin-left: 10%;
 const Section = styled.section`
 display: flex;
 justify-content: end;
-`
+`;
+
+const ImageContainer = styled.div`
+width: 25%;
+`;
+
+const ImageDiv = styled.div`
+ display: flex;
+ margin-top: 42%;
+ margin-right: 12%;
+ align-items: center;
+`;
+
 
 const AboutText = () => {
     return (
@@ -53,6 +67,13 @@ const AboutText = () => {
 export default function About() {
     return (
         <Section>
+           <ImageContainer>
+            <ImageDiv>
+                <img
+                src={BaileyImg}
+                />
+            </ImageDiv>
+           </ImageContainer>
             <AboutHeader>About</AboutHeader>
             <AboutText />
         </Section>
