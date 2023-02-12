@@ -27,6 +27,7 @@ const NavLinks = styled.ul`
   display: flex;
   list-style: none;
   margin: 0;
+  font-weight: bold;
   padding: 0;
   color: black;
   font-size: large;
@@ -57,7 +58,7 @@ const Navbar = () => {
       <NavBrand>Bailey Mejia</NavBrand>
       <NavLinks>
         <NavLink>About</NavLink>
-        <NavLink>Projects</NavLink>
+        <NavLink>Portfolio</NavLink>
         <NavLink>Work</NavLink>
         <NavLink>Contact</NavLink>
       </NavLinks>
