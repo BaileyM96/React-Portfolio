@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import Burnt from '../Assets/Burnt calculator.jpg'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const ProjectHeader = styled.h2`
 display: flex;
@@ -16,13 +17,17 @@ display: flex;
 justify-content: center;
 font-size: large;
 color: black;
+padding-top: 5%;
 font-weight: bold;
 `;
 const ImageContainer = styled.div`
-width: 45%;
 display: flex;
-align-items: center;
-padding-left: 5%;
+justify-content: center;
+`;
+
+const Image = styled.img`
+padding-top: 5%;
+width: 50%;
 `;
 
 
@@ -35,10 +40,10 @@ const ProjectTitle = (props) => {
 export default function Project() {
     return (
         <section>
-            <ProjectHeader>Portfolio</ProjectHeader>
+            <ProjectHeader id='Portfolio'>Portfolio</ProjectHeader>
             <ProjectTitle name='Burnt' />
             <ImageContainer>
-                <img  
+                <Image  
                 src={Burnt}
                 />
             </ImageContainer>

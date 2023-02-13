@@ -12,7 +12,7 @@ justify-content: center;
 font-size: 30px;
 font-weight: bold;
 color: #d97706;
-margin-top: 3%;
+margin-top: 7%;
 `;
 
 const TextContainer = styled.div`
@@ -66,7 +66,7 @@ const AboutText = () => {
 
 export default function About() {
     return (
-        <Section>
+        <Section id='About'>
            <ImageContainer>
             <ImageDiv>
                 <img

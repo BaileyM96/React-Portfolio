@@ -9,6 +9,10 @@ const NavContainer = styled.nav`
   align-items: center;
   padding: 20px;
   background-color: #d97706;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1;
   color: black;
   @media (max-width: 390px) {
     flex-direction: column;
@@ -57,8 +61,12 @@ const Navbar = () => {
     <NavContainer>
       <NavBrand>Bailey Mejia</NavBrand>
       <NavLinks>
+        <a href="#About">
         <NavLink>About</NavLink>
+        </a>
+        <a href="#Portfolio">
         <NavLink>Portfolio</NavLink>
+        </a>
         <NavLink>Work</NavLink>
         <NavLink>Contact</NavLink>
       </NavLinks>
