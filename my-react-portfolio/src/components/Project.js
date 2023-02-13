@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import Burnt from '../Assets/Burnt calculator.jpg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
+
 const ProjectHeader = styled.h2`
 display: flex;
 justify-content: center;
@@ -30,6 +31,11 @@ padding-top: 5%;
 width: 50%;
 `;
 
+const A = styled.a`
+display: flex;
+justify-content: center;
+`;
+
 
 const ProjectTitle = (props) => {
     return (
@@ -47,6 +53,11 @@ export default function Project() {
                 src={Burnt}
                 />
             </ImageContainer>
+            <A href='https://czaldivar419.github.io/BURNT/'>
+                    <p>
+                        View Deployment
+                    </p>
+                </A>
             <ProjectTitle name='Skaro' />
          
         </section>
