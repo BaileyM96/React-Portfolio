@@ -67,8 +67,9 @@ const Navbar = () => {
         <a href="#Portfolio">
         <NavLink>Portfolio</NavLink>
         </a>
-        <NavLink>Work</NavLink>
+        <a href="#Contact">
         <NavLink>Contact</NavLink>
+        </a>
       </NavLinks>
       <BurgerContainer>
         <FontAwesomeIcon size="xl" icon={faBars} />

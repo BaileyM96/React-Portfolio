@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
-import Burnt from '../Assets/Burnt calculator.jpg'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import Burnt from '../Assets/Burnt calculator.jpg';
+import Skaro from '../Assets/Skaro new look.jpg';
 
 
 const ProjectHeader = styled.h2`
@@ -24,6 +24,7 @@ font-weight: bold;
 const ImageContainer = styled.div`
 display: flex;
 justify-content: center;
+padding-bottom: 4%;
 `;
 
 const Image = styled.img`
@@ -34,6 +35,8 @@ width: 50%;
 const A = styled.a`
 display: flex;
 justify-content: center;
+text-decoration: underline;
+margin-bottom: 3%;
 `;
 
 
@@ -57,8 +60,28 @@ export default function Project() {
                     <p>
                         View Deployment
                     </p>
-                </A>
+            </A>
+            <A href='https://github.com/Czaldivar419/BURNT'>
+                <p>
+                    View GitHub
+                </p>
+            </A>
             <ProjectTitle name='Skaro' />
+            <ImageContainer>
+                <Image 
+                src={Skaro}
+                />
+            </ImageContainer>
+            <A href='https://mpe.herokuapp.com/login'>
+                <p>
+                    View Deployment
+                </p>
+            </A>
+            <A href='https://github.com/DanielMartin971/Skaro'>
+                <p>
+                    View GitHub
+                </p>
+            </A>
          
         </section>
     )
