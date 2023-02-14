@@ -6,6 +6,8 @@ import BaileyImg from '../Assets/Bailey Portrait.jpg';
 
 
 
+
+
 const AboutHeader = styled.h2`
 display: flex;
 justify-content: center;
@@ -22,6 +24,10 @@ align-items: flex-end;
 margin-top: 10%;
 padding-right: 20%;
 width: 50%;
+@media (max-width: 390px) {
+    padding-right: 20%;
+    width: 100%;
+}
 `;
 
 const BodyText = styled.p`
@@ -30,6 +36,9 @@ font-size: 20px;
 padding: 10px;
 text-align: center;
 margin-left: 10%;
+@media (max-width: 390px) {
+    margin-left: 0;
+}
 `;
 
 const Section = styled.section`
@@ -39,6 +48,9 @@ justify-content: end;
 
 const ImageContainer = styled.div`
 width: 25%;
+@media (max-width: 390px) {
+    visibility: hidden;
+}
 `;
 
 const ImageDiv = styled.div`

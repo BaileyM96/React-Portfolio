@@ -1,5 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 
 const FooterContainer = styled.footer`
 display: flex;
@@ -18,6 +20,7 @@ const Footer = () => {
     return (
         <FooterContainer>
             <FooterText>
+            <FontAwesomeIcon icon="fa-brands fa-github" />
                 Copyright &copy; 2023: Bailey Mejia
             </FooterText>
         </FooterContainer>
