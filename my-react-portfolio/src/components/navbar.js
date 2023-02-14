@@ -72,7 +72,7 @@ const Navbar = () => {
         </a>
       </NavLinks>
       <BurgerContainer>
-        <FontAwesomeIcon size="xl" icon={faBars} />
+        {/* <FontAwesomeIcon size="xl" icon={faBars} /> */}
       </BurgerContainer>
     </NavContainer>
   );

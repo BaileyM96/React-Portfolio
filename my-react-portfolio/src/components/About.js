@@ -15,6 +15,9 @@ font-size: 30px;
 font-weight: bold;
 color: #d97706;
 margin-top: 7%;
+@media (max-width: 390px) {
+    margin-top: 20%;
+}
 `;
 
 const TextContainer = styled.div`
@@ -25,7 +28,10 @@ margin-top: 10%;
 padding-right: 20%;
 width: 50%;
 @media (max-width: 390px) {
+    display: flex;
+    align-items: center;
     padding-right: 20%;
+    padding-top: 20%;
     width: 100%;
 }
 `;
@@ -44,6 +50,10 @@ margin-left: 10%;
 const Section = styled.section`
 display: flex;
 justify-content: end;
+@media (max-width: 390px) {
+    display: flex;
+    flex-direction: row;
+}
 `;
 
 const ImageContainer = styled.div`
