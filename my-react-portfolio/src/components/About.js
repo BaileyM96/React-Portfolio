@@ -30,8 +30,6 @@ width: 50%;
 @media (max-width: 390px) {
     display: flex;
     align-items: center;
-    padding-right: 20%;
-    padding-top: 20%;
     width: 100%;
 }
 `;
@@ -52,7 +50,8 @@ display: flex;
 justify-content: end;
 @media (max-width: 390px) {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
 }
 `;
 

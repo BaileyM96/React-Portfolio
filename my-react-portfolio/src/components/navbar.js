@@ -16,7 +16,7 @@ const NavContainer = styled.nav`
   color: black;
   @media (max-width: 390px) {
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center
   }
 `;
 
