@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/React-Portfolio/static/css/main.31d6cfe0.css",
+    "main.js": "/React-Portfolio/static/js/main.b8882159.js",
+    "static/js/787.56d9acf9.chunk.js": "/React-Portfolio/static/js/787.56d9acf9.chunk.js",
+    "static/media/Bailey Portrait.jpg": "/React-Portfolio/static/media/Bailey Portrait.f00ad82a957e45e7c843.jpg",
+    "static/media/Burnt calculator.jpg": "/React-Portfolio/static/media/Burnt calculator.1774daf78b1f7fc7dc4a.jpg",
+    "static/media/Skaro new look.jpg": "/React-Portfolio/static/media/Skaro new look.c1b5ecc4dbedb2b1865e.jpg",
+    "index.html": "/React-Portfolio/index.html",
+    "main.b8882159.js.map": "/React-Portfolio/static/js/main.b8882159.js.map",
+    "787.56d9acf9.chunk.js.map": "/React-Portfolio/static/js/787.56d9acf9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31d6cfe0.css",
+    "static/js/main.b8882159.js"
+  ]
+}
