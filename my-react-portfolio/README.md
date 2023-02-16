@@ -8,6 +8,8 @@ Dive into my portfolio that I created with React and discover the full-spectrum 
 
 To view the live website click on the link
 
+https://baileym96.github.io/React-Portfolio/
+
 ## Technology Used
 
 - React
@@ -15,4 +17,11 @@ To view the live website click on the link
 - Node.js
 - JavaScript
 - HTML5
+
+# ScreenShots
+
+<img width="1678" alt="Screen Shot 2023-02-16 at 8 15 55 AM" src="https://user-images.githubusercontent.com/108101478/219424732-64e0008c-83ac-4e06-afd9-10161aaff330.png">
+
+<img width="1678" alt="Screen Shot 2023-02-16 at 8 16 41 AM" src="https://user-images.githubusercontent.com/108101478/219424902-6e8d2160-9d01-41db-8ebe-46e52f307b86.png">
+
 
