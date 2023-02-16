@@ -36,7 +36,7 @@ const A = styled.a`
 display: flex;
 justify-content: center;
 text-decoration: underline;
-margin-bottom: 3%;
+margin-bottom: 2%;
 `;
 
 
